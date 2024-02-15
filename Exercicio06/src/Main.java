@@ -5,15 +5,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Digite uma medida em milimetros: ");
+        System.out.print("Digite a velocidade em m/s: ");
 
 
-        double milimetros = scanner.nextDouble();
+        double velocidade = scanner.nextDouble();
 
 
-        double converter = milimetros / 25.4;
+        double metros = velocidade * 3.6;
 
-        System.out.println("O comprimento em polegadas é: " + converter );
+        System.out.println("A velocidade em kmh: " + metros );
 
 
         scanner.close();

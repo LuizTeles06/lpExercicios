@@ -5,15 +5,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Digite uma medida em milimetros: ");
+        System.out.print("Digite o raio de um círculo: ");
 
 
-        double milimetros = scanner.nextDouble();
+        double raio = scanner.nextDouble();
 
+        double pi = 3.14;
 
-        double converter = milimetros / 25.4;
+        double converter = pi * raio * raio;
 
-        System.out.println("O comprimento em polegadas é: " + converter );
+        System.out.println("Sua área é: " + converter );
 
 
         scanner.close();

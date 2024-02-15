@@ -5,16 +5,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Solicitando ao usuário para inserir um número inteiro
-        System.out.print("Digite um número inteiro: ");
+        System.out.print("Digite um número real: ");
 
         // Lendo o número inteiro fornecido pelo usuário
         int numero = scanner.nextInt();
 
         // Calculando o quadrado do número
-        int quadrado = numero * numero;
+        int quinta_parte = numero / 5;
 
         // Exibindo o resultado
-        System.out.println("O quadrado de " + numero + " é: " + quadrado);
+        System.out.println("A quinta parte do número é: " + quinta_parte);
 
         // Fechando o Scanner para evitar vazamento de recursos
         scanner.close();

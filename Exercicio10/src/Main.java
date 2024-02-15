@@ -5,15 +5,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Digite uma medida em milimetros: ");
+        System.out.print("Digite uma distância em milhas: ");
 
 
-        double milimetros = scanner.nextDouble();
+        double milhas = scanner.nextDouble();
 
 
-        double converter = milimetros / 25.4;
+        double converter = milhas * 1.609;
 
-        System.out.println("O comprimento em polegadas é: " + converter );
+        System.out.println("O comprimento em quilometros é: " + converter );
 
 
         scanner.close();
